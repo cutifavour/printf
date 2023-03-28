@@ -92,6 +92,7 @@ int print_non_printable(va_list types, char buffer[],
 	return (write(1, buffer, i + offset));
 }
 
+
 /************************* PRINT REVERSE *************************/
 /**
  * print_reverse - Prints reverse string.
@@ -184,5 +185,6 @@ int print_rot13string(va_list types, char buffer[],
 			count++;
 		}
 	}
+
 	return (count);
 }
